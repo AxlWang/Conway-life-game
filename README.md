@@ -12,7 +12,7 @@ EN: The iterative function used to implement the Conway Life game is "next_gen",
 
 CN: 用于实现康威生命游戏的迭代函数是“next_gen”，该函数使用两个二维列表分别记录元胞在当前和下一代中的状态。“next_gen”函数中还调用了一个名为“count_neighbors”的函数，用于计算邻域中存活状态的元胞的数量。交互界面设计使用了Tkinter库。
 
-3) Areas for improvement
+3) Areas for improvement(有待改进的地方)
 
 EN: Firstly, the rules of the Conway Life game are variable, and I have only demonstrated the most classic one here. In the future, the design can be improved to allow players to choose their own rules; Secondly, this only demonstrates the situation of one life, what would be the situation of multiple lives?
 
