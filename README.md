@@ -47,9 +47,9 @@ def count_neighbors(grid, row, col):
 
 ```
 
-- EN: The interaction interface design uses the Tkinter library. The function of generating cells by clicking on the interface with the mouse is mainly implemented by the "click_pos" function. Grid_view "is the canvas, and we bind the" click_pos "function to it, which means that the canvas is treated as a coordinate system, and" event. x "is the abscissa in this coordinate system. 'event. y' is the vertical coordinate in this coordinate system.
+- EN: The interaction interface design uses the Tkinter library. The function of generating cells by clicking on the interface with the mouse is mainly implemented by the "click_pos" function. Grid_view "is the canvas, and we bind the" click_pos "function to it, which means that the canvas is treated as a coordinate system, and" event. x "is the abscissa in this coordinate system. 'event. y' is the vertical coordinate in this coordinate system. It should be noted that you need to click on the "Stop" button before clicking on the interface to generate cells.
 
-- CN: 交互界面设计使用了Tkinter库。鼠标点击界面从而产生元胞的功能主要是由“click_pos”函数实现的。鼠标点击界面从而产生元胞的功能主要是由“click_pos”函数实现的。“grid_view”是画布，我们将“click_pos”函数绑定在画布上，这就意味着将画布作为一个坐标系，“event.x”是这个坐标系中的横坐标。“event.y”是这个坐标系中的纵坐标。
+- CN: 交互界面设计使用了Tkinter库。鼠标点击界面从而产生元胞的功能主要是由“click_pos”函数实现的。鼠标点击界面从而产生元胞的功能主要是由“click_pos”函数实现的。“grid_view”是画布，我们将“click_pos”函数绑定在画布上，这就意味着将画布作为一个坐标系，“event.x”是这个坐标系中的横坐标。“event.y”是这个坐标系中的纵坐标。需要注意的是，你需要先点击“Stop”键，才能点击界面来生成元胞。
 
 ```python
 def click_pos(event):
