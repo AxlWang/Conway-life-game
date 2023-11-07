@@ -6,6 +6,8 @@
 
 - CN: 该项目实现了著名的康威生命游戏，并设计了可操作界面，玩家可以通过点击鼠标决定元胞的初始位置。此外，玩家可以清晰地看到元胞的运动轨迹，它被标记成了绿色。
 
+![效果图](D:/JupyterNotebookFile/CMA/Game of life/ezgif.com-video-to-gif.gif)
+
 ## 2) Design ideas(设计思路):
 
 - EN: The iterative function used to implement the Conway Life game is "next_gen", which uses two two-dimensional lists to record the state of the cell in the current and next generations. Each cell has three states, with 0 representing pre birth, 1 representing living, and 2 representing death.The 'next_gen' function also calls a function called 'count_neighbors' to calculate the number of surviving cells in the neighborhood.
