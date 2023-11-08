@@ -6,10 +6,9 @@
 
 - CN: 该项目实现了著名的康威生命游戏，并设计了可操作界面，玩家可以通过点击鼠标决定元胞的初始位置。此外，玩家可以清晰地看到元胞的运动轨迹，它被标记成了绿色。
 
-![效果图](ezgif.com-video-to-gif.gif)
+![img](ezgif.com-video-to-gif.gif)
 
-![效果图2](ezgif.com-video-to-gif2.gif)
-
+![img2](ezgif.com-video-to-gif2.gif)
 
 ## 2) Design ideas(设计思路):
 
