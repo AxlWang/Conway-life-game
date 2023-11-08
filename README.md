@@ -8,6 +8,9 @@
 
 ![效果图](ezgif.com-video-to-gif.gif)
 
+![效果图2](ezgif.com-video-to-gif2.gif)
+
+
 ## 2) Design ideas(设计思路):
 
 - EN: The iterative function used to implement the Conway Life game is "next_gen", which uses two two-dimensional lists to record the state of the cell in the current and next generations. Each cell has three states, with 0 representing pre birth, 1 representing living, and 2 representing death.The 'next_gen' function also calls a function called 'count_neighbors' to calculate the number of surviving cells in the neighborhood.
